@@ -43,12 +43,12 @@ public class addfilterActivity extends AppCompatActivity {
             //Engabe in int parse, wirde nichts eingegeben wird dem int den wert 0 zugewiesen
             filterStops = editTextFilterStops.getText().toString().equals("") ? 0 : Integer.parseInt(editTextFilterStops.getText().toString());
 
-            if(filterStops > 15 || filterStops < 0) {
-                editTextFilterStops.setError("A filter can't have more than 15 Stops nor can it be negative!");
+            if(filterStops > 15 || filterStops < 1) {
+                editTextFilterStops.setError("A filter must have between 1 and 15 Stops");
                 error = true;
             }
         } catch (NumberFormatException nfe) {
-            editTextFilterStops.setError("A filter can't have more than 15 Stops nor can it be negative!");
+            editTextFilterStops.setError("A filter must have between 1 and 15 Stops");
             return;
         }
 
