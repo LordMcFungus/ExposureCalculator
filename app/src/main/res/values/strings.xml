@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ExposureCalculator</string>
+    <string name="exposure_label">Current Shutter</string>
+    <string name="seconds_label">seconds</string>
+    <string name="filter_lable">Applied filter</string>
+    <string name="final_label">Final Shutter</string>
+    <string name="filter_button_text">Add Filter</string>
+    <string name="timer_button_label">Set Timer</string>
+    <string name="filtername_hint">Name</string>
+    <string name="addfilter_title">Add new Filter</string>
+    <string name="filterstops_hint">Stops</string>
+    <string name="filter_save_button_text">Save</string>
+    <string name="timer_title">Timer</string>
+    <string name="time">00:10:00</string>
+    <string name="timer_start_button">Start Timer</string>
+    <string name="timer_reset_button">Reset Timer</string>
+    <string-array name="shutter_array">
+        <item>1/4000</item>
+        <item>1/2000</item>
+        <item>1/1000</item>
+        <item>1/500</item>
+        <item>1/250</item>
+        <item>1/125</item>
+        <item>1/60</item>
+        <item>1/30</item>
+        <item>1/15</item>
+        <item>1/8</item>
+        <item>1/4</item>
+        <item>1/2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+</resources>
